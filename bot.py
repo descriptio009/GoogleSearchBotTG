@@ -6,7 +6,7 @@ import pdfkit
 import time
 import os
 g =[]
-bot = telebot.TeleBot('1394252827:AAGuyD-rDbQKc-2V9X1PtOCg4tEo8jaOtgs')
+bot = telebot.TeleBot('1394252827:******-rDbQKc-2V9X1PtOCg4tEo8jaOtgs')
 @bot.message_handler(content_types='text')
 def start_message(message):
     p = open('users.txt', 'r+')
